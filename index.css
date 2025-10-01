@@ -16,7 +16,7 @@
     max-width: 260px;
 }
 
-.cabecalho__navegacao {
+.cabecalho__navegacao--lista {
     display: flex;
     gap: 40px;
 }
