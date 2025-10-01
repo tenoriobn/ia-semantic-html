@@ -29,6 +29,10 @@
     line-height: normal;
 }
 
+.banner__wrapper {
+    margin: 0;
+}
+
 .banner__img {
     max-width: 100%;
 }
