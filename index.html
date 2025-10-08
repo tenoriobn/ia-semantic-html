@@ -49,72 +49,112 @@
     </section>
 
     <main class="container">
-        <div class="ofertas">
+        <section class="ofertas">
             <div class="ofertas__titulo">
-                <div class="ofertas__titulo--texto">Ofertas da semana</div>
+                <h2 class="ofertas__titulo--texto">Ofertas da semana</h2>
                 <div class="ofertas__titulo--sublinhado"></div>
             </div>
-            <div class="ofertas__cards">
-                <div class="ofertas__cards--grupo">
-                    <div class="ofertas__cards--item ofertas__cards--japao">
+
+            <div class="ofertas__cards" role="list" aria-label="Lista de ofertas de viagem">
+                <div class="ofertas__cards--grupo" role="listitem" aria-label="Grupo de ofertas de viagem">
+                    <article class="ofertas__cards--item ofertas__cards--japao" aria-label="Oferta de viagem para o Japão">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
-                                    <div class="ofertas__card--destino-tipo">HOTEL+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">Japão</b>
-                                </div>
-                                <div class="ofertas__card--preco">R$ 4000</div>
-                                <div class="ofertas__card--botao">
-                                    <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                <header class="ofertas__card--destino">
+                                    <p class="ofertas__card--destino-tipo" aria-label="Tipo de viagem">HOTEL+AÉREO</p>
+                                    <h2 class="ofertas__card--destino-nome" aria-label="Destino">Japão</h2>
+                                </header>
+
+                                <section>
+                                    <p class="ofertas__card--preco">R$ 4000</p>
+                                </section>
+
+                                <footer class="">
+                                    <button 
+                                        class="ofertas__card--botao ofertas__card--botao-texto"
+                                        aria-label="Ver detalhes da oferta para o Japão"
+                                    >
+                                        Ver detalhes
+                                    </button>
+                                </footer>
                             </div>
                         </div>
-                    </div>
-                    <div class="ofertas__cards--item  ofertas__cards--san-andreas">
+                    </article>
+
+                    <article class="ofertas__cards--item ofertas__cards--san-andreas" aria-label="Oferta de viagem para San Andreas">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
-                                    <div class="ofertas__card--destino-tipo">HOTEL+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">San Andreas</b>
-                                </div>
-                                <div class="ofertas__card--preco">R$ 3000</div>
-                                <div class="ofertas__card--botao">
-                                    <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                <header class="ofertas__card--destino">
+                                    <p class="ofertas__card--destino-tipo" aria-label="Tipo de viagem">HOTEL+AÉREO</p>
+                                    <h2 class="ofertas__card--destino-nome" aria-label="Destino">San Andreas</h2>
+                                </header>
+
+                                <section>
+                                    <p class="ofertas__card--preco">R$ 3000</p>
+                                </section>
+
+                                <footer class="">
+                                    <button 
+                                        class="ofertas__card--botao ofertas__card--botao-texto"
+                                        aria-label="Ver detalhes da oferta para San Andreas"
+                                    >
+                                        Ver detalhes
+                                    </button>
+                                </footer>
                             </div>
                         </div>
-                    </div>
-                    <div class="ofertas__cards--item  ofertas__cards--paraiba">
+                    </article>
+
+                    <article class="ofertas__cards--item ofertas__cards--paraiba" aria-label="Oferta de viagem para Paraíba">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
-                                    <div class="ofertas__card--destino-tipo">ALL INCLUSIVE+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">Paraíba</b>
-                                </div>
-                                <div class="ofertas__card--preco">R$ 1200</div>
-                                <div class="ofertas__card--botao">
-                                    <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                <header class="ofertas__card--destino">
+                                    <p class="ofertas__card--destino-tipo" aria-label="Tipo de viagem">ALL INCLUSIVE+AÉREO</p>
+                                    <h2 class="ofertas__card--destino-nome" aria-label="Destino">Paraíba</h2>
+                                </header>
+
+                                <section>
+                                    <p class="ofertas__card--preco">R$ 1200</p>
+                                </section>
+
+                                <footer class="">
+                                    <button 
+                                        class="ofertas__card--botao ofertas__card--botao-texto"
+                                        aria-label="Ver detalhes da oferta para Paraíba"
+                                    >
+                                        Ver detalhes
+                                    </button>
+                                </footer>
                             </div>
                         </div>
-                    </div>
-                    <div class="ofertas__cards--item  ofertas__cards--manaus">
+                    </article>
+
+                   <article class="ofertas__cards--item ofertas__cards--manaus" aria-label="Oferta de viagem para Manaus">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
-                                    <div class="ofertas__card--destino-tipo">ALL INCLUSIVE+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">Manaus</b>
-                                </div>
-                                <div class="ofertas__card--preco">R$ 1600</div>
-                                <div class="ofertas__card--botao">
-                                    <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                <header class="ofertas__card--destino">
+                                    <p class="ofertas__card--destino-tipo" aria-label="Tipo de viagem">ALL INCLUSIVE+AÉREO</p>
+                                    <h2 class="ofertas__card--destino-nome" aria-label="Destino">Manaus</h2>
+                                </header>
+
+                                <section>
+                                    <p class="ofertas__card--preco">R$ 1600</p>
+                                </section>
+
+                                <footer class="">
+                                    <button 
+                                        class="ofertas__card--botao ofertas__card--botao-texto"
+                                        aria-label="Ver detalhes da oferta para Paraíba"
+                                    >
+                                        Ver detalhes
+                                    </button>
+                                </footer>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="busca">
             <div class="busca__titulo">

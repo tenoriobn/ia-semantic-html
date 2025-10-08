@@ -155,11 +155,13 @@ img {
 
 .destinos__item--botao,
 .ofertas__card--botao {
+    border: none;
     border-radius: 8px;
     background: var(--vermelho, #B81515);
     padding: 16px 48px;
     box-sizing: border-box;
     display: inline-block;
+    cursor: pointer;
 }
 
 .destinos__item--botao-texto,
