@@ -178,6 +178,7 @@ img {
     align-items: stretch;
     gap: 24px;
     margin-bottom: 112px;
+    padding: 0;
 }
 
 .busca__categoria {
@@ -237,7 +238,7 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin-bottom: 24px;
+    margin: 0 0 24px 0;
 }
 
 .pagamento {
@@ -256,7 +257,7 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 24px;
+    margin: 0 0 24px 0;
 }
 
 .pagamento__condicoes--detalhes {
@@ -304,10 +305,11 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    margin: 0;
 }
 
 .depoimentos__autor {
-    margin-top: 12px;
+    margin: 12px 0 0 0;
     display: flex;
     gap: 24px;
 }
@@ -326,14 +328,14 @@ span.material-symbols-outlined {
     margin-bottom: 8px;
 }
 
-.footer__container {
+.footer {
     background: var(--preto);
     width: 100%;
     padding: 40px 0;
     margin-top: -4px;
 }
 
-.footer {
+.footer__container {
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -359,6 +361,7 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 160% */
+    margin: 0;
 }
 
 .footer__social-media-container {
@@ -371,5 +374,5 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
 }
